@@ -1,0 +1,93 @@
+        .asso-landing {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+        
+        .asso-landing .container .content-area {
+            padding: 24px 11px;
+        }
+        
+        span {
+            color: #1A733B;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        
+        .asso-landing .container .content-area p {
+            background: url(./asso-well-bg.jpg);
+            background-attachment: fixed;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            letter-spacing: 5px;
+            font-size: 90px;
+            line-height: 100px;
+            font-weight: 800;
+        }
+        
+        .asso-landing .container .content-area h2 {
+            color: #1A733B;
+            font-size: 27px;
+            font-weight: 600;
+            letter-spacing: 0px;
+        }
+        
+        .asso-landing .container .content-area li {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .asso-landing .container .content-area h6 {
+            font-size: 15px;
+            margin-top: 20px;
+            line-height: 26px;
+        }
+        
+        .asso-landing .container .content-area a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            margin-top: 20px;
+            padding: 11px;
+            border: 1px solid #1a733b;
+        }
+        
+        .ass-desciption .container h2 {
+            color: #1A733B;
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 5px;
+        }
+        
+        .ass-desciption .container .asso-two-heading {
+            text-align: center;
+        }
+        
+        .ass-desciption .container .asso-two-heading h1 {
+            margin-bottom: 30px;
+        }
+        
+        .ass-desciption .container .asso-two-heading {
+            margin-bottom: 80px;
+        }
+        
+        .ass-desciption .container .asso-two-main-sub {
+            padding: 20px 21px;
+        }
+        
+        .ass-desciption .container .asso-two-main-sub p {
+            margin-top: 10px;
+        }
+        
+        .ass-desciption .container .asso-two-main-sub .asso-two-main-sub-one .heading {
+            border-bottom: 1px solid #1a733b;
+            line-height: 50px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        .ass-desciption .container .asso-two-main-content p {
+            font-size: 16px;
+            margin-top: 20px;
+            line-height: 33px;
+        }

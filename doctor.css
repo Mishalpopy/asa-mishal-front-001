@@ -1,0 +1,109 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header-area .header {
+    background: #1a733b;
+    min-height: 40vh;
+    line-height: 0;
+    position: relative;
+}
+
+.header-area {
+    background-image: url(./doctor-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.spec-doctor-area {
+    /* display: flex; */
+}
+
+.spec-doctor-area .container img {
+    max-width: 90%;
+}
+
+.spec-doctor-area .container .description-area-doc {
+    padding: 30px 0px;
+    margin-top: 69px;
+}
+
+.spec-doctor-area .container .description-area-doc h1 {
+    font-size: 3rem;
+    font-weight: 600 !important;
+    color: #1A733B;
+    line-height: 50px;
+    margin: 0;
+}
+
+.spec-doctor-area .container .description-area-doc p {
+    margin: 0 0 10px;
+    line-height: 1.8;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+
+.spec-doctor-area .container .description-area-doc span {
+    font-size: 14px;
+    color: #1a733bad;
+    line-height: 1.75rem;
+}
+
+.spec-doctor-area .container .clinic-details span {
+    text-transform: uppercase;
+    color: #1A733B;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.125rem;
+}
+
+.spec-doctor-area .container .overview-section-doc h1 {
+    font-size: 38px;
+    color: #1A733B;
+    font-weight: 600;
+    line-height: 5rem;
+    letter-spacing: 1.2px;
+    padding-bottom: 0.625rem;
+}
+
+.spec-doctor-area .container .overview-section-doc li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
+.leading-team .container h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 54px;
+    color: #1a733b;
+    margin-top: 54px;
+}
+
+.leading-team .container .card-area-start {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.leading-team .container .card-area {
+    max-width: 250px;
+    padding: 20px 20px;
+}
+
+.leading-team .container .card-area .content-area {
+    text-align: center;
+}
+
+.leading-team .container .card-area .content-area p {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}

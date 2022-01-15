@@ -1,0 +1,170 @@
+.form-clinic {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.form-clinic .container {
+    background-color: #f0f2f1;
+    border-radius: 50px;
+}
+
+.form-clinic .container .clinic-form-left {
+    clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+
+.form-clinic .container .clinic-form-left img {}
+
+.form-clinic .container .clinic-form-left {
+    /* padding: 223px 43px; */
+    /* display: flex; */
+    text-align: right;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.form-clinic .container .clinic-form-left p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.form-clinic .container .clinic-form-left a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.clinic-form-right {
+    position: relative;
+    width: 100%;
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+    justify-content: center;
+    display: flex;
+}
+
+.clinic-form-right p {
+    margin-top: 30px;
+    line-height: 15px;
+    color: #1a733b;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.clinic-form-right a {
+    text-decoration: none;
+    color: #545454;
+    margin-bottom: 18px;
+}
+
+.form-clinic .imgBx {
+    background-image: url(./form-patern.png);
+    display: flex;
+    width: 50%;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-clinic .imgBx img {
+    padding: 20px 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.form-clinic .imgBx h1 {
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.form-clinic .imgBx a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.form-clinic .imgBx img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #e91e63, #03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+
+.form-clinic .contentBx {
+    display: flex;
+    align-items: center;
+    /* background-color: #c7dbc4;
+opacity: 0.4;
+background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #c7dbc4 12px), repeating-linear-gradient( #51b44755, #51b447); */
+    height: 100%;
+    justify-content: center;
+}
+
+.form-clinic .contentBx .formBx h2 {
+    color: #61482f;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.form-clinic .contentBx .formBx .inputBx {
+    margin-bottom: 20px;
+}
+
+.form-clinic .contentBx .formBx .inputBx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #51b447;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.form-clinic .contentBx .formBx .inputBx input:focus {
+    outline: none;
+}
+
+.form-clinic .contentBx .formBx .inputBx input {
+    width: 100%;
+    padding: 6px 20px;
+    outline: none;
+    font-weight: 400;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #51b447;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+}
+
+.form-clinic .contentBx .formBx .inputBx input[type="submit"] {
+    background: #51b447;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-clinic .contentBx .formBx .inputBx a {
+    color: #61482f;
+    font-weight: 600;
+}

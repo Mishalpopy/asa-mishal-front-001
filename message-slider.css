@@ -1,0 +1,12 @@
+.director-msg .rounded img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.director-msg .rounded::before {
+    position: absolute;
+    background-color: black;
+    top: -25px;
+    width: 100%;
+    height: 100%;
+}
